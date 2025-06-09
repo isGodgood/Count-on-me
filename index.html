@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Count On Me - Counseling</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #cde7f0, #f5fafc);
+      margin: 0;
+      padding: 0;
+      color: #1a3c59;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #7bc4c4;
+      color: white;
+      text-align: center;
+      padding: 2.5rem 1rem;
+      box-shadow: 0 4px 15px rgba(123, 196, 196, 0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    header p {
+      margin-top: 0.6rem;
+      font-weight: 500;
+      font-size: 1.1rem;
+      font-style: italic;
+      opacity: 0.9;
+    }
+    main {
+      flex-grow: 1;
+      max-width: 720px;
+      margin: 2rem auto 3rem;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(123, 196, 196, 0.2);
+      padding: 2rem 2.5rem;
+    }
+    h2 {
+      color: #3a6f87;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #7bc4c4;
+      padding-bottom: 0.3rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+    ul {
+      margin-left: 1.3rem;
+      list-style-type: disc;
+      color: #4a6b78;
+    }
+    blockquote {
+      font-style: italic;
+      color: #4a6b78;
+      border-left: 4px solid #7bc4c4;
+      padding-left: 1rem;
+      margin: 1.5rem 0;
+      background: #eaf5f6;
+      border-radius: 10px;
+    }
+    .chat-box {
+      background: #def3f4;   border-radius: 15px;
+      padding: 1rem 1.2rem;
+      min-height: 180px;
+      overflow-y: auto;
+      font-size: 0.95rem;
+      color: #1a3c59;
+      box-shadow: inset 0 0 8px #a6d7db;
+    }
+    .chat-message {
+      margin-bottom: 1rem;
+      max-width: 80%;
+      padding: 0.7rem 1rem;
+      border-radius: 15px;
+      box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
+    }
+    .user-msg {
+      background: #7bc4c4;
+      color: white;
+      margin-left: auto;
+      text-align: right;
+    }
+    .bot-msg {
+      background: #a9d1d3;
+      color: #163f4f;
+    }
+    footer {
+      text-align: center;
+      color: #7bc4c4;
+      font-size: 0.9rem;
+      padding-bottom: 1rem;
+    }
+    img.decorative {
+      max-width: 100%;
+      border-radius: 20px;
+      margin-top: 1rem;
+      box-shadow: 0 6px 18px rgba(123,196,196,0.2);
+      user-select: none;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Count On Me</h1>
+    <p>All sessions are 100% online • Safe • Private • Free to talk</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Here to Listen, Here for You</h2>
+      <p>
+        You don’t have to carry everything alone. I’m not a licensed therapist — just someone with a heart for listening.
+        If you need a safe space to be heard, I’m here for you. All sessions happen online — wherever you are, you can reach out.
+      </p>
+      <blockquote>
+        “Come to me, all you who are weary and burdened, and I will give you rest.” — Matthew 11:28
+      </blockquote>
+      <img class="decorative" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Calm ocean with gentle waves" />
+    </section>
+
+    <section>
+      <h2>What I Offer</h2>
+      <ul>
+        <li>Compassionate, judgment-free listening sessions online.</li>
+        <li>Support from the heart with no credentials, just care.</li>
+        <li>Safe, confidential, and free conversations.</li>
+      </ul>
+      <img class="decorative" src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80" alt="Peaceful spa stones and flowers" />
+    </section>
+
+    <section>
+      <h2>Start a Conversation</h2>
+      <div class="chat-box" aria-label="Chat messages example">
+        <div class="chat-message user-msg"><strong>You:</strong> Hello, I’m here.</div>
+        <div class="chat-message bot-msg"><strong>Count On Me:</strong> I am here to listen and be your friend in need. Let's talk through this together.</div>
+      </div>
+      <p style="margin-top: 1rem; font-style: italic; color: #3a6f87;">
+        *(Note: For real chat, please reach out via your preferred messaging app.)*
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Count On Me. All rights reserved.
+  </footer>
+</body>
+</html>
